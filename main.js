@@ -1,9 +1,11 @@
 async function initpage(){
     const error = document.getElementById('error');
     const query = window.location.search;
-    if(query.startsWith('?@'))
+    const hash = window.location.hash;
+    if(hash.startsWith('#'))
     {
-        username = query.slice(2);
+        //username = query.slice(2);
+        const username = hash.substring(1);
         try{
             const userresponse = await fetch(`${username}.user`);
             const userdata = await userresponse.json();
@@ -75,8 +77,7 @@ async function initpage(){
     }
     else
     {
-        error.innerHTML = `Invalid URL Format`;
-        document.title = `Invalid URL Format`;
+        window.location.href = 'home.html';
         return;
     }
 
@@ -152,7 +153,7 @@ async function initedit(){
         document.body.setAttribute('th-theme', activetheme);
 
         const query = window.location.search;
-        if(query.startsWith('?@'))
+        if(query.startsWith('#'))
         {
             const username = query.slice(2);
             const h2 = document.createElement('h2');
