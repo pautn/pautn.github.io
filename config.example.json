@@ -1,0 +1,10 @@
+{
+    "users":{
+        "0": {
+            "label": "Example User",
+            "name": "exampleuser"
+        }
+    },
+    "theme": "terminal"
+
+}

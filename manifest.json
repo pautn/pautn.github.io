@@ -1,0 +1,43 @@
+{
+    "icons": {
+        "Instagram": "bi bi-instagram",
+        "Daun": "bi bi-leaf-fill",
+        "Facebook": "bi bi-facebook",
+        "LinkedIn": "bi bi-linkedin",
+        "Github": "bi bi-github",
+        "Mastodon": "bi bi-mastodon",
+        "Reddit": "bi bi-reddit",
+        "Signal": "bi bi-signal",
+        "Twitch": "bi bi-twitch",
+        "Twitter": "bi bi-twitter",
+        "TikTok": "bi bi-tiktok",
+        "Youtube": "bi bi-youtube"
+    },
+    "themes": {
+        "midnight": {
+            "label": "Midnight Slate",
+            "value": "midnight",
+            "preview": "#58A6FF"
+        },
+        "nordic": {
+            "label": "Nordic Frost",
+            "value": "nordic",
+            "preview": "#88C0D0"
+        },
+        "cyber": {
+            "label": "Cyber Neon",
+            "value": "cyber",
+            "preview": "#BB86FC"
+        },
+        "forest": {
+            "label": "Forest Ember",
+            "value": "forest",
+            "preview": "#E67E22"
+        },
+        "terminal": {
+            "label": "Retro Terminal",
+            "value": "terminal",
+            "preview": "#D2FF00"
+        }
+    }
+}
