@@ -1,3 +1,9 @@
+const adsense = document.createElement('script');
+adsense.async = true;
+adsense.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5514264872807416";
+adsense.crossOrigin = "anonymous";
+document.head.appendChild(adsense);
+//<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5514264872807416" crossorigin="anonymous"></script>
 async function initpage(){
     const error = document.getElementById('error');
     const query = window.location.search;
